@@ -21,10 +21,10 @@ export function Hero({ onOpenPrivacy }: HeroProps) {
           <p className="reveal text-sm font-bold uppercase tracking-[0.22em] text-brand">
             {t('hero.brand')}
           </p>
-          <h1 className="reveal reveal-delay-1 mt-4 min-h-[2.2em] text-4xl font-bold leading-[1.05] tracking-tight text-ink sm:min-h-[2.15em] sm:text-5xl lg:min-h-[2.2em] lg:text-[3.4rem]">
+          <h1 className="reveal reveal-delay-1 mt-4 min-h-[2.1lh] text-4xl font-bold leading-[1.05] tracking-tight text-ink sm:text-5xl lg:text-[3.4rem]">
             {t('hero.headline')}
           </h1>
-          <p className="reveal reveal-delay-2 mt-5 min-h-[4.5rem] max-w-md text-base leading-relaxed text-muted sm:min-h-[5.25rem] sm:text-lg">
+          <p className="reveal reveal-delay-2 mt-3 min-h-[4.5rem] max-w-md text-base leading-relaxed text-muted sm:min-h-[5.25rem] sm:text-lg">
             {t('hero.sub')}
           </p>
           <p className="reveal reveal-delay-2 mt-4 min-h-[1.25rem] text-sm font-semibold text-ink">
@@ -36,7 +36,7 @@ export function Hero({ onOpenPrivacy }: HeroProps) {
           </div>
         </div>
 
-        <div className="reveal reveal-delay-2 relative mx-auto w-full max-w-md lg:max-w-none">
+        <div className="reveal reveal-delay-2 relative mx-auto w-full max-w-sm lg:max-w-md">
           <div className="absolute -inset-6 -z-10 rounded-[2rem] bg-[radial-gradient(circle_at_center,rgba(31,122,77,0.18),transparent_65%)] blur-2xl" />
           <img
             src={productImg}

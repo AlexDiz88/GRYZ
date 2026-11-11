@@ -99,7 +99,7 @@ export function LeadForm({ id, compact = false, onOpenPrivacy }: LeadFormProps) 
         </label>
       </div>
 
-      <label className="mt-4 flex min-h-[4.25rem] cursor-pointer items-start gap-3 text-left text-sm leading-snug text-muted">
+      <label className="mt-4 flex cursor-pointer items-start gap-3 text-left text-sm leading-snug text-muted">
         <input
           type="checkbox"
           checked={consent}
@@ -119,19 +119,16 @@ export function LeadForm({ id, compact = false, onOpenPrivacy }: LeadFormProps) 
         </span>
       </label>
 
-      <p
-        className={`mt-3 min-h-[1.25rem] text-sm font-medium text-brand ${
-          fieldError || status === 'error' ? '' : 'invisible'
-        }`}
-        role={fieldError || status === 'error' ? 'alert' : undefined}
-      >
-        {fieldError || t('form.error')}
-      </p>
+      {(fieldError || status === 'error') && (
+        <p className="mt-3 text-sm font-medium text-brand" role="alert">
+          {fieldError || t('form.error')}
+        </p>
+      )}
 
       <button
         type="submit"
         disabled={status === 'loading'}
-        className="mt-2 inline-flex h-12 w-full items-center justify-center rounded-xl bg-brand px-5 text-sm font-bold uppercase tracking-[0.08em] text-white transition hover:bg-brand-dark disabled:cursor-wait disabled:opacity-70"
+        className="mt-4 inline-flex h-12 w-full items-center justify-center rounded-xl bg-brand px-5 text-sm font-bold uppercase tracking-[0.08em] text-white transition hover:bg-brand-dark disabled:cursor-wait disabled:opacity-70"
         data-cta="submit-sample"
       >
         {status === 'loading' ? t('form.submitting') : t('form.submit')}

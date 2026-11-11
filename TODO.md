@@ -5,13 +5,13 @@
 Чеклист, без которого нельзя открывать страницу даже для внутреннего / мягкого теста заявок.
 
 ### Инфраструктура и заявки
-- [ ] Создать `.env` из `.env.example`
-- [ ] Создать Google Sheet для лидов (лист `Leads`)
-- [ ] Вставить и задеплоить Apps Script из `scripts/gas-waitlist.js` (см. `docs/google-apps-script.md`)
-- [ ] Указать реальный `NOTIFICATION_EMAIL` в Apps Script (сейчас заглушка `info@gmail.com`)
-- [ ] Прописать `VITE_GAS_ENDPOINT` в `.env` (URL Web App)
-- [ ] Прогнать тестовую заявку: строка в Sheet + письмо на почту
-- [ ] Проверить, что в заявке корректно пишутся `market` (UA/PL/OTHER), страна, `uiLanguage`
+- [x] Создать `.env` из `.env.example`
+- [x] Создать Google Sheet для лидов (лист `Leads`)
+- [x] Вставить и задеплоить Apps Script из `scripts/gas-waitlist.js` (см. `docs/google-apps-script.md`)
+- [x] Указать `NOTIFICATION_EMAIL` в Apps Script (пока тестовая личная почта)
+- [x] Прописать `VITE_GAS_ENDPOINT` в `.env` (URL Web App)
+- [x] Прогнать тестовую заявку: строка в Sheet + письмо на почту
+- [x] Проверить, что в заявке корректно пишутся `market` (UA/PL/OTHER), страна, `uiLanguage`
 
 ### Контент и бренд
 - [ ] Заменить контакт `info@gmail.com` на рабочий ящик (форма/футер/legal-тексты в `src/i18n/locales/*.json` + Apps Script)
@@ -62,6 +62,7 @@
 - [ ] Проверить требования к cookie banner и согласиям для PL (RODO) и UA
 
 ### Техника и операции
+- [ ] Заменить тестовый `NOTIFICATION_EMAIL` в Apps Script на рабочий ящик (и задеплоить новую версию Web App)
 - [ ] Купить/подключить домен и HTTPS
 - [ ] Настроить продакшен-хостинг, редиректы, favicon, Open Graph / meta share-картинку
 - [ ] Ограничить или мониторить спам в форме (rate limit / honeypot / reCAPTCHA при росте трафика)

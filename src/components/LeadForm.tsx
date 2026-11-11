@@ -14,9 +14,9 @@ export function LeadForm({ id, compact = false, onOpenPrivacy }: LeadFormProps) 
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [consent, setConsent] = useState(false)
-  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>(
-    'idle',
-  )
+  const [status, setStatus] = useState<
+    'idle' | 'loading' | 'success' | 'duplicate' | 'error'
+  >('idle')
   const [fieldError, setFieldError] = useState<string | null>(null)
 
   async function onSubmit(e: FormEvent) {
@@ -38,10 +38,18 @@ export function LeadForm({ id, compact = false, onOpenPrivacy }: LeadFormProps) 
       email,
       uiLanguage: i18n.resolvedLanguage || 'ua',
     })
-    setStatus(result.ok ? 'success' : 'error')
+    if (result.ok) {
+      setStatus('success')
+      return
+    }
+    if (result.reason === 'duplicate') {
+      setStatus('duplicate')
+      return
+    }
+    setStatus('error')
   }
 
-  if (status === 'success') {
+  if (status === 'success' || status === 'duplicate') {
     return (
       <div
         id={id}
@@ -51,9 +59,19 @@ export function LeadForm({ id, compact = false, onOpenPrivacy }: LeadFormProps) 
           OK
         </p>
         <h3 className="mt-2 text-2xl font-bold tracking-tight text-ink">
-          {t('form.successTitle')}
+          {t(
+            status === 'duplicate'
+              ? 'form.duplicateTitle'
+              : 'form.successTitle',
+          )}
         </h3>
-        <p className="mt-2 text-muted">{t('form.successText')}</p>
+        <p className="mt-2 text-muted">
+          {t(
+            status === 'duplicate'
+              ? 'form.duplicateText'
+              : 'form.successText',
+          )}
+        </p>
       </div>
     )
   }

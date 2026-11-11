@@ -18,16 +18,13 @@ export function Hero({ onOpenPrivacy }: HeroProps) {
 
       <div className="relative mx-auto grid max-w-6xl items-start gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12 lg:py-16">
         <div className="max-w-xl">
-          <p className="reveal text-sm font-bold uppercase tracking-[0.22em] text-brand">
-            {t('hero.brand')}
-          </p>
-          <h1 className="reveal reveal-delay-1 mt-4 min-h-[2.1lh] text-4xl font-bold leading-[1.05] tracking-tight text-ink sm:text-5xl lg:text-[3.4rem]">
+          <h1 className="reveal min-h-[2.1lh] text-4xl font-bold leading-[1.05] tracking-tight text-ink sm:text-5xl lg:text-[3.4rem]">
             {t('hero.headline')}
           </h1>
-          <p className="reveal reveal-delay-2 mt-3 min-h-[4.5rem] max-w-md text-base leading-relaxed text-muted sm:min-h-[5.25rem] sm:text-lg">
+          <p className="reveal reveal-delay-1 mt-3 min-h-[4.5rem] max-w-md text-base leading-relaxed text-muted sm:min-h-[5.25rem] sm:text-lg">
             {t('hero.sub')}
           </p>
-          <p className="reveal reveal-delay-2 mt-4 min-h-[1.25rem] text-sm font-semibold text-ink">
+          <p className="reveal reveal-delay-1 mt-4 min-h-[1.25rem] text-sm font-semibold text-ink">
             {t('hero.badge')}
           </p>
 

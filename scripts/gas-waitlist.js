@@ -7,10 +7,14 @@
  *    - Execute as: Me
  *    - Who has access: Anyone
  * 4. Copy the Web App URL into VITE_GAS_ENDPOINT
+ *
+ * After editing this file in Apps Script, deploy a new version
+ * (Deploy → Manage deployments → Edit → New version).
  */
 
 const SHEET_NAME = 'Leads'
-const NOTIFICATION_EMAIL = 'info@gmail.com' // change me
+const NOTIFICATION_EMAIL = 'gryzfood@gmail.com'
+const EMAIL_COLUMN = 3 // C: timestamp | name | email | …
 
 function doOptions() {
   return jsonResponse({ ok: true })
@@ -21,10 +25,22 @@ function doPost(e) {
     const raw = e.postData && e.postData.contents ? e.postData.contents : '{}'
     const data = JSON.parse(raw)
 
+    const email = String(data.email || '')
+      .trim()
+      .toLowerCase()
+    if (!email || email.indexOf('@') === -1) {
+      return jsonResponse({ ok: false, error: 'invalid_email' })
+    }
+
+    const sheet = getOrCreateSheet_()
+    if (emailExists_(sheet, email)) {
+      return jsonResponse({ ok: false, error: 'duplicate' })
+    }
+
     const row = [
       data.timestamp || new Date().toISOString(),
       data.name || '',
-      data.email || '',
+      email,
       data.market || '',
       data.detectedCountry || '',
       data.marketSource || '',
@@ -33,13 +49,12 @@ function doPost(e) {
       data.consent === true ? 'yes' : 'no',
     ]
 
-    const sheet = getOrCreateSheet_()
     sheet.appendRow(row)
 
-    const subject = `[ГРИЗ] New lead · ${data.market || '?'} · ${data.email || ''}`
+    const subject = `[GRYZ] New lead · ${data.market || '?'} · ${email}`
     const body = [
       `Name: ${data.name || ''}`,
-      `Email: ${data.email || ''}`,
+      `Email: ${email}`,
       `Market: ${data.market || ''}`,
       `Country: ${data.detectedCountry || ''}`,
       `Market source: ${data.marketSource || ''}`,
@@ -58,6 +73,20 @@ function doPost(e) {
 
 function doGet() {
   return jsonResponse({ ok: true, service: 'gryz-waitlist' })
+}
+
+function emailExists_(sheet, email) {
+  const lastRow = sheet.getLastRow()
+  if (lastRow < 2) return false
+
+  const values = sheet.getRange(2, EMAIL_COLUMN, lastRow, EMAIL_COLUMN).getValues()
+  for (let i = 0; i < values.length; i++) {
+    const cell = String(values[i][0] || '')
+      .trim()
+      .toLowerCase()
+    if (cell === email) return true
+  }
+  return false
 }
 
 function getOrCreateSheet_() {

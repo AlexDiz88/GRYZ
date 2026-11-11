@@ -14,7 +14,7 @@ export type LeadPayload = {
 
 export type SubmitResult =
   | { ok: true }
-  | { ok: false; reason: 'config' | 'network' | 'server' }
+  | { ok: false; reason: 'config' | 'network' | 'server' | 'duplicate' }
 
 export async function submitLead(input: {
   name: string
@@ -55,8 +55,13 @@ export async function submitLead(input: {
     }
 
     try {
-      const data = (await res.json()) as { ok?: boolean }
-      if (data.ok === false) return { ok: false, reason: 'server' }
+      const data = (await res.json()) as { ok?: boolean; error?: string }
+      if (data.ok === false) {
+        if (data.error === 'duplicate') {
+          return { ok: false, reason: 'duplicate' }
+        }
+        return { ok: false, reason: 'server' }
+      }
     } catch {
       // Some deployments return empty body — treat HTTP 200 as success
     }

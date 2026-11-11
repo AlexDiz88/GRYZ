@@ -15,10 +15,10 @@ export function Offer({ onOpenPrivacy }: OfferProps) {
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand">
             {t('offer.eyebrow')}
           </p>
-          <h2 className="mt-3 min-h-[2.5em] text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-ink sm:text-4xl">
             {t('offer.title')}
           </h2>
-          <p className="mt-5 text-lg font-semibold text-ink">{t('offer.pack')}</p>
+          <p className="mt-3 text-lg font-semibold text-ink">{t('offer.pack')}</p>
           <ul className="mt-4 space-y-2 text-muted">
             <li>{t('offer.priceUa')}</li>
             <li>{t('offer.pricePl')}</li>

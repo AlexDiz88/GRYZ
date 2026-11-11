@@ -20,13 +20,15 @@
     "name": "Twoje imię",
     "namePlaceholder": "Imię",
     "email": "E-mail",
-    "emailPlaceholder": "you@email.com",
+    "emailPlaceholder": "your@email.com",
     "consent": "Wyrażam zgodę na przetwarzanie danych osobowych i komunikację dotyczącą darmowej próbki zgodnie z",
     "privacyLink": "Polityką prywatności",
     "submit": "Chcę darmową próbkę",
     "submitting": "Wysyłamy…",
     "successTitle": "Zgłoszenie przyjęte",
     "successText": "Napiszemy na Twój e-mail, gdy próbka będzie gotowa do wysyłki.",
+    "duplicateTitle": "Jesteś już na liście",
+    "duplicateText": "Ten e-mail jest już w zgłoszeniach. Skontaktujemy się, gdy próbka będzie gotowa.",
     "error": "Nie udało się wysłać. Spróbuj ponownie później.",
     "consentRequired": "Wymagana jest zgoda na przetwarzanie danych.",
     "invalidEmail": "Podaj poprawny e-mail."
@@ -87,8 +89,8 @@
   },
   "nutrition": {
     "eyebrow": "Skład",
-    "title": "Co powinno być w jednej porcji",
-    "disclaimer": "Wartości orientacyjne. Dokładny skład i tabelę wartości odżywczych opublikujemy po badaniach laboratoryjnych.",
+    "title": "Co jest w jednej porcji",
+    "disclaimer": "Białko, energia i składniki odżywcze — żeby jeden posiłek naprawdę zamykał temat obiadu.",
     "items": [
       {
         "value": "60 g",
@@ -114,8 +116,8 @@
   },
   "flavors": {
     "eyebrow": "Smaki",
-    "title": "Jakie smaki w ogóle ma GRYZ",
-    "sub": "Mini-przegląd kierunków. Finalny asortyment potwierdzimy bliżej startu.",
+    "title": "Smaki GRYZ",
+    "sub": "Cztery kierunki — od znanych po bardziej wyraziste.",
     "items": [
       {
         "name": "Barszcz",
@@ -136,13 +138,13 @@
     ]
   },
   "offer": {
-    "eyebrow": "Start",
+    "eyebrow": "Przedsprzedaż",
     "title": "Tydzień obiadów bez zachodu",
     "pack": "7 porcji",
-    "priceUa": "cena: [CENA] грн",
-    "pricePl": "cena: [CENA] zł",
+    "priceUa": "Ukraina — cena przy starcie sprzedaży",
+    "pricePl": "Polska — cena przy starcie sprzedaży",
     "delivery": "Dostawa w Ukrainie i w Polsce.",
-    "note": "Teraz zbieramy zgłoszenia na darmową próbkę, żeby zbadać zainteresowanie produktem."
+    "note": "Zostaw zgłoszenie po darmową próbkę — napiszemy na e-mail, gdy będzie gotowa do wysyłki."
   },
   "faq": {
     "eyebrow": "Pytania",
@@ -162,27 +164,27 @@
       },
       {
         "q": "Co daje darmowa próbka?",
-        "a": "Zostawiasz imię i e-mail — sprawdzamy zainteresowanie produktem i informujemy o wysyłce próbki."
+        "a": "Zostawiasz imię i e-mail — informujemy, gdy próbka jest gotowa do wysyłki, i wysyłamy ją."
       },
       {
         "q": "Kiedy start?",
-        "a": "Pracujemy nad recepturą. Osoby zapisane dowiedzą się pierwsze."
+        "a": "Osoby zapisane dowiedzą się pierwsze — napiszemy na e-mail o starcie i dostawie."
       }
     ]
   },
   "footer": {
     "brand": "GRYZ",
-    "tagline": "Nazwa robocza. Strona testowa: badamy zainteresowanie startem produkcji na rynkach Ukrainy i Polski.",
+    "tagline": "Pełnowartościowy obiad z paczki — gdy nie ma czasu gotować.",
     "contact": "Kontakt",
-    "email": "info@gmail.com",
+    "email": "gryzfood@gmail.com",
     "privacy": "Prywatność",
     "cookies": "Cookies",
-    "markets": "Rynki docelowe: Ukraina i Polska.",
+    "markets": "Dostawa w Ukrainie i w Polsce.",
     "rights": "© {{year}} GRYZ"
   },
   "cookies": {
     "title": "Używamy cookies",
-    "text": "Niezbędne cookies są potrzebne do działania strony (język, zgoda). Analityczne dodamy później po Twojej zgodzie.",
+    "text": "Niezbędne cookies są potrzebne do działania strony (język i Twój wybór dotyczący cookies). Analityka włącza się dopiero po zgodzie.",
     "acceptNecessary": "Tylko niezbędne",
     "acceptAll": "Akceptuję wszystkie",
     "policy": "Polityka cookies"
@@ -192,18 +194,22 @@
     "cookiesTitle": "Polityka cookies",
     "close": "Zamknij",
     "privacyBody": [
-      "Administrator danych: GRYZ (projekt testowy). Kontakt: info@gmail.com.",
-      "Zbieramy imię, e-mail, język interfejsu, orientacyjny rynek (UA/PL/inny), kraj wg IP (jeśli dostępny), dane techniczne przeglądarki oraz czas zgłoszenia.",
-      "Cel: obsługa zgłoszeń o darmową próbkę, ocena zainteresowania produktem na rynkach Ukrainy i Polski, komunikacja o starcie.",
-      "Podstawa prawna: Twoja zgoda (RODO/GDPR art. 6(1)(a); odpowiednie przepisy Ukrainy o ochronie danych osobowych).",
-      "Dane przechowujemy tak długo, jak potrzeba do testu popytu lub do wycofania zgody, potem usuwamy lub anonimizujemy.",
-      "Możemy przekazywać dane dostawcom infrastruktury (np. Google Sheets / Google Apps Script) wyłącznie w podanym celu.",
-      "Masz prawo dostępu, sprostowania, usunięcia, ograniczenia przetwarzania, sprzeciwu i wycofania zgody. Napisz na info@gmail.com."
+      "Administrator danych: GRYZ. Kontakt: gryzfood@gmail.com.",
+      "Przy wysyłce zgłoszenia przetwarzamy: imię, e-mail, język interfejsu, rynek (UA/PL/inny), kraj wg IP (jeśli dostępny), źródło ustalenia rynku, informacje o przeglądarce, czas zgłoszenia oraz fakt zgody.",
+      "Aby ustalić rynek, przeglądarka może skorzystać z usługi geolokalizacji po IP (ipapi.co). Jeśli usługa jest niedostępna, rynek szacujemy na podstawie języka przeglądarki.",
+      "Przetwarzamy te dane, aby przyjąć zgłoszenie o darmową próbkę, skontaktować się z Tobą e-mailem i zorganizować wysyłkę próbki.",
+      "Podstawa prawna: Twoja zgoda — art. 6 ust. 1 lit. a RODO/GDPR (Polska / UE) oraz ustawa Ukrainy «Про захист персональних даних».",
+      "Dane przechowujemy tak długo, jak potrzeba do obsługi zgłoszenia i kontaktu z Tobą, albo do wycofania zgody — potem usuwamy lub anonimizujemy.",
+      "Odbiorcy: infrastruktura Google (Google Sheets / Google Apps Script) do przechowywania zgłoszeń i powiadomień; przy geolokalizacji — ipapi.co. Nie sprzedajemy Twoich danych.",
+      "Masz prawo dostępu, sprostowania, usunięcia, ograniczenia przetwarzania, sprzeciwu i wycofania zgody. Napisz na gryzfood@gmail.com.",
+      "Informacje o zapisie języka i wyboru cookies w przeglądarce — w Polityce cookies."
     ],
     "cookiesBody": [
-      "Niezbędne cookies: zapis języka interfejsu i Twojego wyboru dotyczącego cookies.",
-      "Analityczne cookies (GA4 itd.) nie są jeszcze podłączone. Gdy się pojawią — włączymy je tylko po zgodzie.",
-      "Możesz zmienić decyzję, czyszcząc cookies przeglądarki lub pisząc na info@gmail.com."
+      "W serwisie GRYZ zapisujemy w przeglądarce wyłącznie dane potrzebne do działania strony: wybrany język interfejsu oraz Twój wybór dotyczący plików cookies.",
+      "Narzędzia analityczne i marketingowe włączamy wyłącznie po Twojej zgodzie wyrażonej w banerze. Bez zgody nie są ładowane.",
+      "Niezbędne dane służące do zapamiętania zgody i języka nie wymagają osobnej zgody — bez nich strona nie mogłaby działać zgodnie z Twoim wyborem.",
+      "W każdej chwili możesz zresetować wybór, usuwając dane tej witryny w ustawieniach przeglądarki — baner pojawi się ponownie. W sprawach związanych z cookies napisz na: gryzfood@gmail.com.",
+      "Przetwarzanie danych osobowych z formularza zgłoszenia opisuje Polityka prywatności."
     ]
   }
 }

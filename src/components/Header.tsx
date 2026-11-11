@@ -16,7 +16,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-line/80 bg-cream/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <a href="#top" className="text-lg font-bold tracking-[0.04em] text-ink">
+        <a href="#top" className="text-2xl font-bold tracking-[0.04em] text-ink sm:text-[1.75rem]">
           {t('hero.brand')}
         </a>
 
@@ -34,13 +34,6 @@ export function Header() {
 
         <div className="flex shrink-0 items-center gap-2 sm:gap-3">
           <LanguageSwitcher />
-          <a
-            href="#sample"
-            className="hidden min-w-[13.5rem] items-center justify-center rounded-xl bg-brand px-3.5 py-2 text-center text-xs font-bold uppercase tracking-[0.08em] text-white transition hover:bg-brand-dark sm:inline-flex"
-            data-cta="header-sample"
-          >
-            {t('nav.cta')}
-          </a>
           <button
             type="button"
             className="inline-flex rounded-lg border border-line px-2.5 py-2 text-ink md:hidden"
@@ -74,13 +67,6 @@ export function Header() {
                 {t(link.key)}
               </a>
             ))}
-            <a
-              href="#sample"
-              onClick={() => setOpen(false)}
-              className="rounded-xl bg-brand px-3.5 py-2.5 text-center text-xs font-bold uppercase tracking-[0.08em] text-white"
-            >
-              {t('nav.cta')}
-            </a>
           </div>
         </div>
       )}

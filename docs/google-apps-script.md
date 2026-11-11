@@ -33,7 +33,11 @@ VITE_GAS_ENDPOINT=https://script.google.com/macros/s/YOUR_ID/exec
 
 ## 4. Проверка
 
-Отправьте тестовую заявку с лендинга. В Sheet должна появиться строка, на почту — письмо с темой `[ГРИЗ] New lead · …`.
+Отправьте тестовую заявку с лендинга. В Sheet должна появиться строка, на почту — письмо с темой `[GRYZ] New lead · …`.
+
+Повторная заявка с тем же e-mail (без учёта регистра) не пишется в Sheet и не шлёт письмо — скрипт отвечает `{ ok: false, error: "duplicate" }`, на лендинге показывается сообщение «уже в списке».
+
+После любых правок в Apps Script: **Deploy → Manage deployments → ✎ → Version: New version → Deploy**.
 
 ## Рынки
 

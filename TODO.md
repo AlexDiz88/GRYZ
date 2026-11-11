@@ -33,8 +33,8 @@
 - [x] Проверка desktop + mobile (hero, формы, язык, FAQ, баннер cookies)
 - [x] Проверка переключателя UA / PL / RU и автоопределения языка браузера
 - [x] Проверка якорных ссылок в хедере (`#how`, `#nutrition`, `#flavors`, `#faq`, `#sample`)
-- [ ] Задеплоить на staging (Vercel / Netlify / аналог) и прогнать форму уже с прод-URL endpoint
-- [ ] Убедиться, что `.env` не попал в git
+- [x] Задеплоить на staging (Vercel / Netlify / аналог) и прогнать форму уже с прод-URL endpoint
+- [x] Убедиться, что `.env` не попал в git
 
 ---
 

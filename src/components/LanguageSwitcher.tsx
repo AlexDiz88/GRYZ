@@ -4,7 +4,6 @@ import type { AppLanguage } from '../i18n'
 const options: { code: AppLanguage; label: string }[] = [
   { code: 'ua', label: 'UA' },
   { code: 'pl', label: 'PL' },
-  { code: 'ru', label: 'RU' },
 ]
 
 export function LanguageSwitcher() {

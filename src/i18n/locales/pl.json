@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "title": "GRYZ — normalny obiad, nawet gdy nie ma czasu",
+    "description": "GRYZ — pełnowartościowy obiad z paczki. Zostaw zgłoszenie po darmową próbkę."
+  },
+  "nav": {
+    "how": "Jak to działa",
+    "nutrition": "Skład",
+    "flavors": "Smaki",
+    "faq": "Pytania",
+    "cta": "Chcę darmową próbkę"
+  },
+  "hero": {
+    "brand": "GRYZ",
+    "headline": "Normalny obiad. Nawet gdy nie ma czasu.",
+    "sub": "Otwierasz paczkę i jesz. Bez sklepów, gotowania i liczenia — temat jedzenia zamknięty.",
+    "badge": "Darmowa próbka dla pierwszych zgłoszeń"
+  },
+  "form": {
+    "name": "Twoje imię",
+    "namePlaceholder": "Imię",
+    "email": "E-mail",
+    "emailPlaceholder": "you@email.com",
+    "consent": "Wyrażam zgodę na przetwarzanie danych osobowych i komunikację dotyczącą darmowej próbki zgodnie z",
+    "privacyLink": "Polityką prywatności",
+    "submit": "Chcę darmową próbkę",
+    "submitting": "Wysyłamy…",
+    "successTitle": "Zgłoszenie przyjęte",
+    "successText": "Napiszemy na Twój e-mail, gdy próbka będzie gotowa do wysyłki.",
+    "error": "Nie udało się wysłać. Spróbuj ponownie później.",
+    "consentRequired": "Wymagana jest zgoda na przetwarzanie danych.",
+    "invalidEmail": "Podaj poprawny e-mail."
+  },
+  "benefits": {
+    "eyebrow": "Co zyskujesz",
+    "title": "Więcej czasu. Mniej decyzji. Normalne jedzenie.",
+    "items": [
+      {
+        "title": "Więcej czasu",
+        "text": "Zakupy, gotowanie i zmywanie znikają z grafiku. Ten czas należy do Ciebie."
+      },
+      {
+        "title": "Oszczędność",
+        "text": "Pełny obiad taniej niż lunch w mieście czy dieta pudełkowa. I nic się nie psuje w lodówce."
+      },
+      {
+        "title": "Wszystko w jednej porcji",
+        "text": "Białko, węglowodany, tłuszcze, witaminy i minerały w jednej paczce. Nie myślisz, co i kiedy jeść."
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "Jak to działa",
+    "title": "Trzy kroki. Obiad załatwiony.",
+    "steps": [
+      {
+        "title": "Otwórz paczkę",
+        "text": "Jedna paczka — jedna odmierzone porcja. Bez ważenia i liczenia."
+      },
+      {
+        "title": "Jedz prosto z paczki",
+        "text": "Chrupiące kawałki do przegryzienia — nie proszek i nie shake."
+      },
+      {
+        "title": "Obiad zamknięty",
+        "text": "Białko na ten posiłek masz. Wracasz do swoich spraw."
+      }
+    ]
+  },
+  "audience": {
+    "eyebrow": "Dla kogo",
+    "title": "Jeden produkt na trzy sytuacje, gdy zwykle jesz byle co.",
+    "items": [
+      {
+        "title": "Gdy nie ma czasu gotować",
+        "text": "Normalne jedzenie przy biurku lub między spotkaniami — zamiast bułki ze stacji."
+      },
+      {
+        "title": "Gdy trenujesz",
+        "text": "Dobierasz białko bez pudełek i shakera. Jedna porcja — około 1/3 dziennego celu."
+      },
+      {
+        "title": "Gdy nie chcesz się rozkminiać",
+        "text": "Makro, kalorie, witaminy — wszystko policzone za Ciebie. Ty po prostu jesz."
+      }
+    ]
+  },
+  "nutrition": {
+    "eyebrow": "Skład",
+    "title": "Co powinno być w jednej porcji",
+    "disclaimer": "Wartości orientacyjne. Dokładny skład i tabelę wartości odżywczych opublikujemy po badaniach laboratoryjnych.",
+    "items": [
+      {
+        "value": "60 g",
+        "label": "białka",
+        "hint": "jak ok. 250 g piersi z kurczaka"
+      },
+      {
+        "value": "~600",
+        "label": "kcal",
+        "hint": "pełny obiad, nie przekąska"
+      },
+      {
+        "value": "Błonnik",
+        "label": "w każdej porcji",
+        "hint": "żeby porcja sycila"
+      },
+      {
+        "value": "Witaminy",
+        "label": "i minerały",
+        "hint": "w zbilansowanym zestawie"
+      }
+    ]
+  },
+  "flavors": {
+    "eyebrow": "Smaki",
+    "title": "Jakie smaki w ogóle ma GRYZ",
+    "sub": "Mini-przegląd kierunków. Finalny asortyment potwierdzimy bliżej startu.",
+    "items": [
+      {
+        "name": "Barszcz",
+        "text": "Znajomy smak buraka i przypraw w wygodnej porcji."
+      },
+      {
+        "name": "Kurczak z czosnkiem",
+        "text": "Sycący, słony profil na dni treningowe."
+      },
+      {
+        "name": "Curry",
+        "text": "Ciepłe przyprawy bez zbędnej ostrości."
+      },
+      {
+        "name": "Pomidor z bazylią",
+        "text": "Lekki, śródziemnomorski akcent."
+      }
+    ]
+  },
+  "offer": {
+    "eyebrow": "Start",
+    "title": "Tydzień obiadów bez zachodu",
+    "pack": "7 porcji",
+    "priceUa": "cena: [CENA] грн",
+    "pricePl": "cena: [CENA] zł",
+    "delivery": "Dostawa w Ukrainie i w Polsce.",
+    "note": "Teraz zbieramy zgłoszenia na darmową próbkę, żeby zbadać zainteresowanie produktem."
+  },
+  "faq": {
+    "eyebrow": "Pytania",
+    "title": "Krótko i na temat",
+    "items": [
+      {
+        "q": "To karma dla zwierząt?",
+        "a": "Nie. To jedzenie dla ludzi: produkcja spożywcza i surowce spożywcze."
+      },
+      {
+        "q": "Można jeść tylko to?",
+        "a": "Nie o to chodzi. GRYZ zastępuje ten posiłek, na który nie masz czasu — nie całą dietę."
+      },
+      {
+        "q": "Z czego to będzie?",
+        "a": "Baza roślinna z grochu i ryżu, przyprawy, oleje roślinne, witaminy i minerały."
+      },
+      {
+        "q": "Co daje darmowa próbka?",
+        "a": "Zostawiasz imię i e-mail — sprawdzamy zainteresowanie produktem i informujemy o wysyłce próbki."
+      },
+      {
+        "q": "Kiedy start?",
+        "a": "Pracujemy nad recepturą. Osoby zapisane dowiedzą się pierwsze."
+      }
+    ]
+  },
+  "footer": {
+    "brand": "GRYZ",
+    "tagline": "Nazwa robocza. Strona testowa: badamy zainteresowanie startem produkcji na rynkach Ukrainy i Polski.",
+    "contact": "Kontakt",
+    "email": "info@gmail.com",
+    "privacy": "Prywatność",
+    "cookies": "Cookies",
+    "markets": "Rynki docelowe: Ukraina i Polska.",
+    "rights": "© {{year}} GRYZ"
+  },
+  "cookies": {
+    "title": "Używamy cookies",
+    "text": "Niezbędne cookies są potrzebne do działania strony (język, zgoda). Analityczne dodamy później po Twojej zgodzie.",
+    "acceptNecessary": "Tylko niezbędne",
+    "acceptAll": "Akceptuję wszystkie",
+    "policy": "Polityka cookies"
+  },
+  "legal": {
+    "privacyTitle": "Polityka prywatności",
+    "cookiesTitle": "Polityka cookies",
+    "close": "Zamknij",
+    "privacyBody": [
+      "Administrator danych: GRYZ (projekt testowy). Kontakt: info@gmail.com.",
+      "Zbieramy imię, e-mail, język interfejsu, orientacyjny rynek (UA/PL/inny), kraj wg IP (jeśli dostępny), dane techniczne przeglądarki oraz czas zgłoszenia.",
+      "Cel: obsługa zgłoszeń o darmową próbkę, ocena zainteresowania produktem na rynkach Ukrainy i Polski, komunikacja o starcie.",
+      "Podstawa prawna: Twoja zgoda (RODO/GDPR art. 6(1)(a); odpowiednie przepisy Ukrainy o ochronie danych osobowych).",
+      "Dane przechowujemy tak długo, jak potrzeba do testu popytu lub do wycofania zgody, potem usuwamy lub anonimizujemy.",
+      "Możemy przekazywać dane dostawcom infrastruktury (np. Google Sheets / Google Apps Script) wyłącznie w podanym celu.",
+      "Masz prawo dostępu, sprostowania, usunięcia, ograniczenia przetwarzania, sprzeciwu i wycofania zgody. Napisz na info@gmail.com."
+    ],
+    "cookiesBody": [
+      "Niezbędne cookies: zapis języka interfejsu i Twojego wyboru dotyczącego cookies.",
+      "Analityczne cookies (GA4 itd.) nie są jeszcze podłączone. Gdy się pojawią — włączymy je tylko po zgodzie.",
+      "Możesz zmienić decyzję, czyszcząc cookies przeglądarki lub pisząc na info@gmail.com."
+    ]
+  }
+}

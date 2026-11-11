@@ -1,0 +1,46 @@
+import { useTranslation } from 'react-i18next'
+
+export function Flavors() {
+  const { t } = useTranslation()
+  const items = t('flavors.items', { returnObjects: true }) as {
+    name: string
+    text: string
+  }[]
+
+  return (
+    <section
+      id="flavors"
+      className="scroll-mt-20 border-b border-line bg-cream py-16 sm:py-20"
+    >
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand">
+          {t('flavors.eyebrow')}
+        </p>
+        <h2 className="mt-3 min-h-[2.5em] max-w-2xl text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+          {t('flavors.title')}
+        </h2>
+        <p className="mt-4 min-h-[3rem] max-w-xl text-muted">{t('flavors.sub')}</p>
+
+        <div className="mt-10 grid items-stretch gap-4 sm:grid-cols-2">
+          {items.map((item, index) => (
+            <div
+              key={index}
+              className="flex gap-4 border border-line bg-white px-5 py-5 transition hover:border-brand/40"
+            >
+              <span
+                aria-hidden
+                className="mt-1 size-2.5 shrink-0 rounded-full bg-brand"
+              />
+              <div>
+                <h3 className="text-lg font-bold text-ink">{item.name}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-muted">
+                  {item.text}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}

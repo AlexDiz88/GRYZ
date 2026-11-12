@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
-import productImg from '../assets/product.png'
+import productImgPl from '../assets/product_pl.png'
+import productImgUa from '../assets/product_ua.png'
 import { LeadForm } from './LeadForm'
 
 type HeroProps = {
@@ -7,7 +8,8 @@ type HeroProps = {
 }
 
 export function Hero({ onOpenPrivacy }: HeroProps) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const productImg = i18n.language === 'pl' ? productImgPl : productImgUa
 
   return (
     <section className="relative overflow-hidden border-b border-line bg-sand">

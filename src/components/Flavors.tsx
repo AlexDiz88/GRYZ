@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import flavorsImg from '../assets/image2.png'
+import flavorsImgMobile from '../assets/image2_mobile.png'
 
 export function Flavors() {
   const { t } = useTranslation()
@@ -45,13 +46,16 @@ export function Flavors() {
         </div>
 
         <div className="relative min-h-[22rem] sm:min-h-[26rem] lg:min-h-0">
-          <img
-            src={flavorsImg}
-            alt=""
-            width={376}
-            height={1040}
-            className="absolute inset-0 h-full w-full object-cover"
-          />
+          <picture>
+            <source media="(min-width: 1024px)" srcSet={flavorsImg} />
+            <img
+              src={flavorsImgMobile}
+              alt=""
+              width={376}
+              height={1040}
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+          </picture>
         </div>
       </div>
     </section>

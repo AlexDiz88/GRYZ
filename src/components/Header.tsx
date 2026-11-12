@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import logo from '../assets/logo.png'
 import { LanguageSwitcher } from './LanguageSwitcher'
 
 const links = [
@@ -15,12 +16,22 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-line/80 bg-cream/90 backdrop-blur-md">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <a href="#top" className="text-2xl font-bold tracking-[0.04em] text-ink sm:text-[1.75rem]">
-          {t('hero.brand')}
+      <div className="relative mx-auto flex h-14 max-w-6xl items-stretch sm:h-16">
+        <a
+          href="#top"
+          className="inline-flex h-full shrink-0 self-stretch"
+          aria-label={t('hero.brand')}
+        >
+          <img
+            src={logo}
+            alt={t('hero.brand')}
+            className="h-full w-auto"
+            width={220}
+            height={64}
+          />
         </a>
 
-        <nav className="hidden items-center gap-5 lg:gap-6 md:flex">
+        <nav className="absolute top-1/2 left-1/2 hidden -translate-x-1/2 -translate-y-1/2 items-center gap-5 md:flex lg:gap-6">
           {links.map((link) => (
             <a
               key={link.href}
@@ -32,7 +43,7 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex shrink-0 items-center gap-2 sm:gap-3">
+        <div className="ml-auto flex shrink-0 items-center gap-2 px-4 sm:gap-3 sm:px-6">
           <LanguageSwitcher />
           <button
             type="button"

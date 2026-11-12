@@ -22,9 +22,21 @@ export default function App() {
   const closeLegal = useCallback(() => setLegalDoc(null), [])
 
   useEffect(() => {
-    document.title = t('meta.title')
-    const meta = document.querySelector('meta[name="description"]')
-    if (meta) meta.setAttribute('content', t('meta.description'))
+    const title = t('meta.title')
+    const description = t('meta.description')
+    document.title = title
+
+    const setMeta = (selector: string, content: string, attr = 'content') => {
+      const el = document.querySelector(selector)
+      if (el) el.setAttribute(attr, content)
+    }
+
+    setMeta('meta[name="description"]', description)
+    setMeta('meta[property="og:title"]', title)
+    setMeta('meta[property="og:description"]', description)
+    setMeta('meta[name="twitter:title"]', title)
+    setMeta('meta[name="twitter:description"]', description)
+
     document.documentElement.lang =
       i18n.resolvedLanguage === 'ua'
         ? 'uk'

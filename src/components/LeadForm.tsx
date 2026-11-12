@@ -146,7 +146,7 @@ export function LeadForm({ id, compact = false, onOpenPrivacy }: LeadFormProps) 
       <button
         type="submit"
         disabled={status === 'loading'}
-        className="mt-4 inline-flex h-12 w-full items-center justify-center rounded-xl bg-brand px-5 text-sm font-bold uppercase tracking-[0.08em] text-white transition hover:bg-brand-dark disabled:cursor-wait disabled:opacity-70"
+        className="mt-4 inline-flex h-12 w-full items-center justify-center rounded-xl bg-pistachio px-5 text-sm font-bold uppercase tracking-[0.08em] text-ink transition hover:bg-pistachio-dark disabled:cursor-wait disabled:opacity-70"
         data-cta="submit-sample"
       >
         {status === 'loading' ? t('form.submitting') : t('form.submit')}

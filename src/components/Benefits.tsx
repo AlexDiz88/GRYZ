@@ -13,17 +13,20 @@ export function Benefits() {
         <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand">
           {t('benefits.eyebrow')}
         </p>
-        <h2 className="mt-3 min-h-[2.5em] max-w-2xl text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+        <h2 className="mt-4 max-w-2xl text-[2rem] font-bold leading-tight tracking-tight text-ink sm:mt-3 sm:text-4xl">
           {t('benefits.title')}
         </h2>
 
-        <div className="mt-10 grid items-start gap-8 md:grid-cols-3 md:gap-10">
+        <div className="mt-12 grid items-start md:mt-10 md:grid-cols-3 md:gap-10">
           {items.map((item, index) => (
-            <div key={index} className="border-t border-line pt-5">
-              <h3 className="min-h-[1.75rem] text-xl font-bold text-ink">
+            <div key={index} className="border-t border-line py-8 md:py-0 md:pt-5">
+              <span className="text-sm font-bold tabular-nums tracking-wide text-brand">
+                {String(index + 1).padStart(2, '0')}
+              </span>
+              <h3 className="mt-3 text-2xl font-bold tracking-tight text-ink">
                 {item.title}
               </h3>
-              <p className="mt-3 min-h-[6.5rem] text-sm leading-relaxed text-muted sm:text-base">
+              <p className="mt-3 text-base leading-[1.65] text-ink/70 md:min-h-[6.5rem]">
                 {item.text}
               </p>
             </div>

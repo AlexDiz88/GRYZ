@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import howImg from '../assets/image1.png'
 
 export function HowItWorks() {
   const { t } = useTranslation()
@@ -8,30 +9,40 @@ export function HowItWorks() {
   }[]
 
   return (
-    <section id="how" className="scroll-mt-20 border-b border-line bg-sand py-16 sm:py-20">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand">
-          {t('how.eyebrow')}
-        </p>
-        <h2 className="mt-3 min-h-[2.5em] max-w-2xl text-3xl font-bold tracking-tight text-ink sm:text-4xl">
-          {t('how.title')}
-        </h2>
+    <section id="how" className="scroll-mt-20 border-b border-line bg-sand">
+      <div className="mx-auto grid max-w-6xl lg:grid-cols-[minmax(220px,280px)_1fr]">
+        <div className="relative min-h-[22rem] sm:min-h-[26rem] lg:min-h-0">
+          <img
+            src={howImg}
+            alt=""
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+        </div>
 
-        <ol className="mt-12 grid items-start gap-8 md:grid-cols-3">
-          {steps.map((step, index) => (
-            <li key={index} className="relative">
-              <span className="text-5xl font-bold tabular-nums text-brand/20">
-                {String(index + 1).padStart(2, '0')}
-              </span>
-              <h3 className="mt-3 min-h-[1.75rem] text-xl font-bold text-ink">
-                {step.title}
-              </h3>
-              <p className="mt-3 min-h-[5.5rem] text-sm leading-relaxed text-muted sm:text-base">
-                {step.text}
-              </p>
-            </li>
-          ))}
-        </ol>
+        <div className="flex items-center justify-center px-4 py-10 sm:px-6 sm:py-12">
+          <div className="w-full max-w-xl">
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand">
+              {t('how.eyebrow')}
+            </p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+              {t('how.title')}
+            </h2>
+
+            <ol className="mt-6 space-y-5">
+              {steps.map((step, index) => (
+                <li key={index} className="relative">
+                  <span className="text-3xl font-bold tabular-nums text-brand/20">
+                    {String(index + 1).padStart(2, '0')}
+                  </span>
+                  <h3 className="mt-1 text-lg font-bold text-ink">{step.title}</h3>
+                  <p className="mt-1.5 text-sm leading-relaxed text-muted">
+                    {step.text}
+                  </p>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </div>
       </div>
     </section>
   )

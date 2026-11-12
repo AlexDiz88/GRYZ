@@ -48,7 +48,7 @@ export function CookieBanner({ onOpenPolicy }: CookieBannerProps) {
           <button
             type="button"
             onClick={() => choose('all')}
-            className="rounded-xl bg-brand px-4 py-2.5 text-xs font-bold uppercase tracking-[0.08em] text-white transition hover:bg-brand-dark"
+            className="rounded-xl bg-pistachio px-4 py-2.5 text-xs font-bold uppercase tracking-[0.08em] text-ink transition hover:bg-pistachio-dark"
           >
             {t('cookies.acceptAll')}
           </button>

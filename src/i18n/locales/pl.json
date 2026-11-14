@@ -74,19 +74,19 @@
   },
   "audience": {
     "eyebrow": "Dla kogo",
-    "title": "Jeden produkt na trzy sytuacje, gdy zwykle jesz byle co.",
+    "title": "Twój rytm. Twoje zasady. Twój GRYZ",
     "items": [
       {
-        "title": "Gdy nie ma czasu gotować",
-        "text": "Normalne jedzenie przy biurku lub między spotkaniami — zamiast bułki ze stacji."
+        "title": "Gdy każda minuta się liczy",
+        "text": "Między spotkaniami, deadline'ami i wyjazdami. GRYZ zawsze pod ręką, gdy nie ma czasu na pełny obiad."
       },
       {
-        "title": "Gdy trenujesz",
-        "text": "Dobierasz białko bez pudełek i shakera. Jedna porcja — około 1/3 dziennego celu."
+        "title": "Gdy żyjesz sportem",
+        "text": "Wygodny sposób na porcję białka po treningu — bez pudełek i shakerów."
       },
       {
-        "title": "Gdy nie chcesz się rozkminiać",
-        "text": "Makro, kalorie, witaminy — wszystko policzone za Ciebie. Ty po prostu jesz."
+        "title": "Gdy życie jest w ruchu",
+        "text": "W drodze, na uczelni lub w podróży. Jedzenie, które dopasowuje się do Twojego grafiku."
       }
     ]
   },

@@ -120,23 +120,80 @@
   "flavors": {
     "eyebrow": "Smaki",
     "title": "Smaki GRYZ",
-    "sub": "Cztery kierunki — od znanych po bardziej wyraziste.",
+    "sub": "Sześć pełnych dań — białko, smak i czytelne makro w każdej porcji.",
+    "macros": {
+      "kcal": "kcal",
+      "protein": "białko",
+      "fat": "tłuszcz",
+      "carbs": "węglowodany",
+      "fiber": "błonnik"
+    },
     "items": [
       {
-        "name": "Barszcz",
-        "text": "Znajomy smak buraka i przypraw w wygodnej porcji."
+        "name": "Cheeseburger",
+        "text": "Soczysty kotlet z wyselekcjonowanej chudej wołowiny z ciągnącym się serem cheddar, chrupiącymi warzywami i pikantnym sosem jogurtowo-musztardowym na miękkiej pełnoziarnistej bułce — idealna równowaga smaku i białka do Twoich zwycięstw.",
+        "nutrition": {
+          "kcal": "~555",
+          "protein": "43 g",
+          "fat": "~16 g",
+          "carbs": "~58 g",
+          "fiber": "~7–8 g"
+        }
       },
       {
-        "name": "Kurczak z czosnkiem",
-        "text": "Sycący, słony profil na dni treningowe."
+        "name": "Kurczak teriyaki z makaronem funchoza",
+        "text": "Delikatne kawałki filetu z kurczaka w skarmelizowanej glazurze teriyaki ze szklanym makaronem funchoza, chrupiącymi warzywami i sezamem — wyrazisty azjatycki smak i ładunek białka bez zbędnych kalorii.",
+        "nutrition": {
+          "kcal": "~510",
+          "protein": "44 g",
+          "fat": "~11 g",
+          "carbs": "~58 g",
+          "fiber": "~5–6 g"
+        }
       },
       {
-        "name": "Curry",
-        "text": "Ciepłe przyprawy bez zbędnej ostrości."
+        "name": "Risotto z krewetkami",
+        "text": "Delikatne kremowe risotto z ryżu arborio z soczystymi krewetkami tygrysimi i lekkim parmezanem — wyrafinowana klasyka, zbilansowana pod względem białka i złożonych węglowodanów na idealny obiad.",
+        "nutrition": {
+          "kcal": "~520",
+          "protein": "41 g",
+          "fat": "~13 g",
+          "carbs": "~58 g",
+          "fiber": "~4–5 g"
+        }
       },
       {
-        "name": "Pomidor z bazylią",
-        "text": "Lekki, śródziemnomorski akcent."
+        "name": "Pizza Cztery sery",
+        "text": "Cienkie pełnoziarniste ciasto z ciągnącą się mozzarellą, pikantną gorgonzolą, parmezanem i delikatną ricottą — intensywny serowy smak i dużo białka bez ciężkości.",
+        "nutrition": {
+          "kcal": "~550",
+          "protein": "40 g",
+          "fat": "~17 g",
+          "carbs": "~58 g",
+          "fiber": "~6 g"
+        }
+      },
+      {
+        "name": "Pad Thai z makaronem ryżowym i wołowiną",
+        "text": "Delikatna marmurkowa polędwica z makaronem ryżowym, jajkiem i chrupiącymi kiełkami w słodko-kwaśnym sosie tamarindowym — wyrazisty tajski street food i białko dla napięcia mięśni.",
+        "nutrition": {
+          "kcal": "~545",
+          "protein": "42 g",
+          "fat": "~14 g",
+          "carbs": "~62 g",
+          "fiber": "~5 g"
+        }
+      },
+      {
+        "name": "Lasagne bolognese",
+        "text": "Cienkie płatki z twardej pszenicy, duszony wołowy bolognese z pomidorami, delikatny beszamel na ricottie i rumiana serowa skórka — klasyczna włoska sytość i białko bez zbędnego tłuszczu.",
+        "nutrition": {
+          "kcal": "~530",
+          "protein": "44 g",
+          "fat": "~14 g",
+          "carbs": "~55 g",
+          "fiber": "~6 g"
+        }
       }
     ]
   },

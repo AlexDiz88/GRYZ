@@ -56,19 +56,19 @@
   },
   "how": {
     "eyebrow": "Jak to działa",
-    "title": "Trzy kroki. Obiad załatwiony.",
+    "title": "Głodny? Rozwiązanie jest prostsze, niż myślisz.",
     "steps": [
       {
-        "title": "Otwórz paczkę",
-        "text": "Jedna paczka — jedna odmierzone porcja. Bez ważenia i liczenia."
+        "title": "Otwórz GRYZ",
+        "text": "Bez gotowania, naczyń i czekania. Wszystko jest już gotowe."
       },
       {
-        "title": "Jedz prosto z paczki",
-        "text": "Chrupiące kawałki do przegryzienia — nie proszek i nie shake."
+        "title": "Ciesz się",
+        "text": "Soczyste kawałki, które wygodnie jeść gdziekolwiek. Bez shakerów i mieszania z wodą."
       },
       {
-        "title": "Obiad zamknięty",
-        "text": "Białko na ten posiłek masz. Wracasz do swoich spraw."
+        "title": "Wracaj do dnia",
+        "text": "Zjadłeś — i wracasz do tego, co naprawdę ważne."
       }
     ]
   },

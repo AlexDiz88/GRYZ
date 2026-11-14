@@ -19,8 +19,8 @@ export function HowItWorks() {
           />
         </div>
 
-        <div className="flex items-center justify-center px-4 py-8 sm:px-6 sm:py-10">
-          <div className="w-full max-w-xl">
+        <div className="flex items-center justify-start px-4 py-8 sm:py-10 sm:pr-6 sm:pl-8 lg:pl-10">
+          <div className="w-full max-w-2xl">
             <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand">
               {t('how.eyebrow')}
             </p>

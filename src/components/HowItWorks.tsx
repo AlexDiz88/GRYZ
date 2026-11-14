@@ -19,7 +19,7 @@ export function HowItWorks() {
           />
         </div>
 
-        <div className="flex items-center justify-center px-4 py-10 sm:px-6 sm:py-12">
+        <div className="flex items-center justify-center px-4 py-8 sm:px-6 sm:py-10">
           <div className="w-full max-w-xl">
             <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand">
               {t('how.eyebrow')}

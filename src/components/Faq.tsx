@@ -10,7 +10,7 @@ export function Faq() {
   const [openIndex, setOpenIndex] = useState(0)
 
   return (
-    <section id="faq" className="scroll-mt-20 border-b border-line bg-cream py-16 sm:py-20">
+    <section id="faq" className="scroll-mt-20 border-b border-line bg-cream py-12 sm:py-16">
       <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand">
           {t('faq.eyebrow')}
@@ -19,7 +19,7 @@ export function Faq() {
           {t('faq.title')}
         </h2>
 
-        <div className="mt-10 divide-y divide-line border-y border-line">
+        <div className="mt-8 divide-y divide-line border-y border-line sm:mt-10">
           {items.map((item, index) => {
             const open = openIndex === index
             return (

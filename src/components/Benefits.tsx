@@ -8,7 +8,7 @@ export function Benefits() {
   }[]
 
   return (
-    <section className="border-b border-line bg-cream py-16 sm:py-20">
+    <section className="border-b border-line bg-cream py-12 sm:py-16">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand">
           {t('benefits.eyebrow')}
@@ -17,9 +17,9 @@ export function Benefits() {
           {t('benefits.title')}
         </h2>
 
-        <div className="mt-12 grid items-start md:mt-10 md:grid-cols-3 md:gap-10">
+        <div className="mt-8 grid items-start md:mt-10 md:grid-cols-3 md:gap-10">
           {items.map((item, index) => (
-            <div key={index} className="border-t border-line py-8 md:py-0 md:pt-5">
+            <div key={index} className="border-t border-line py-6 md:py-0 md:pt-5">
               <span className="text-sm font-bold tabular-nums tracking-wide text-brand">
                 {String(index + 1).padStart(2, '0')}
               </span>

@@ -8,7 +8,7 @@ export function Audience() {
   }[]
 
   return (
-    <section className="border-b border-line bg-cream py-16 sm:py-20">
+    <section className="border-b border-line bg-cream py-12 sm:py-16">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand">
           {t('audience.eyebrow')}
@@ -17,7 +17,7 @@ export function Audience() {
           {t('audience.title')}
         </h2>
 
-        <div className="mt-10 grid items-stretch gap-6 lg:grid-cols-3">
+        <div className="mt-8 grid items-stretch gap-4 sm:gap-6 lg:grid-cols-3">
           {items.map((item, index) => (
             <article
               key={index}

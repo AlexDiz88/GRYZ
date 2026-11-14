@@ -11,7 +11,7 @@ export function Nutrition() {
   return (
     <section
       id="nutrition"
-      className="scroll-mt-20 border-b border-line bg-ink py-16 text-white sm:py-20"
+      className="scroll-mt-20 border-b border-line bg-ink py-12 text-white sm:py-16"
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand">
@@ -24,7 +24,7 @@ export function Nutrition() {
           {t('nutrition.disclaimer')}
         </p>
 
-        <div className="mt-12 grid items-start gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-8 grid items-start gap-5 sm:mt-10 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
           {items.map((item, index) => (
             <div key={index} className="border-t border-white/15 pt-5">
               <p className="min-h-[2.25rem] text-3xl font-bold tracking-tight text-white">

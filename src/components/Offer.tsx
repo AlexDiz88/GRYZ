@@ -9,8 +9,8 @@ export function Offer({ onOpenPrivacy }: OfferProps) {
   const { t } = useTranslation()
 
   return (
-    <section className="border-b border-line bg-sand py-16 sm:py-20">
-      <div className="mx-auto grid max-w-6xl items-start gap-10 px-4 sm:px-6 lg:grid-cols-[1fr_1fr]">
+    <section className="border-b border-line bg-sand py-12 sm:py-16">
+      <div className="mx-auto grid max-w-6xl items-start gap-8 px-4 sm:px-6 lg:grid-cols-[1fr_1fr] lg:gap-10">
         <div>
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand">
             {t('offer.eyebrow')}

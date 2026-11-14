@@ -14,9 +14,11 @@
     "brand": "GRYZ",
     "headline": "Pełnowartościowy obiad. Nawet bez czasu.",
     "sub": "Otwierasz paczkę i jesz. Bez sklepów, gotowania i liczenia — temat jedzenia zamknięty.",
-    "badge": "Darmowa próbka dla pierwszych zgłoszeń"
+    "badge": "Darmowa próbka dla pierwszych zgłoszeń",
+    "cta": "Chcę darmową próbkę"
   },
   "form": {
+    "modalTitle": "Zgłoszenie po próbkę",
     "name": "Twoje imię",
     "namePlaceholder": "Imię",
     "email": "E-mail",

@@ -15,7 +15,7 @@ export function Flavors() {
       className="scroll-mt-20 border-b border-line bg-cream"
     >
       <div className="mx-auto grid max-w-6xl lg:grid-cols-[1fr_minmax(220px,280px)]">
-        <div className="px-4 py-16 sm:px-6 sm:py-20">
+        <div className="px-4 py-12 sm:px-6 sm:py-16">
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand">
             {t('flavors.eyebrow')}
           </p>
@@ -24,7 +24,7 @@ export function Flavors() {
           </h2>
           <p className="mt-4 min-h-[3rem] max-w-xl text-muted">{t('flavors.sub')}</p>
 
-          <div className="mt-10 grid items-stretch gap-4 sm:grid-cols-2">
+          <div className="mt-8 grid items-stretch gap-3 sm:mt-10 sm:grid-cols-2 sm:gap-4">
             {items.map((item, index) => (
               <div
                 key={index}

@@ -98,7 +98,9 @@ export function Flavors() {
         <h2 className="mt-3 max-w-2xl text-3xl font-bold tracking-tight text-ink sm:text-4xl">
           {t('flavors.title')}
         </h2>
-        <p className="mt-4 max-w-xl text-muted">{t('flavors.sub')}</p>
+        <p className="mt-4 max-w-xl text-muted sm:max-w-3xl lg:max-w-4xl">
+          {t('flavors.sub')}
+        </p>
 
         <ul className="mt-8 divide-y divide-line border-y border-line sm:mt-10">
           {items.map((item, index) => (

@@ -93,21 +93,21 @@
   "nutrition": {
     "eyebrow": "Skład",
     "title": "Co jest w jednej porcji",
-    "disclaimer": "Białko, energia i składniki odżywcze — żeby jeden posiłek naprawdę zamykał temat obiadu.",
+    "disclaimer": "Średnie wartości dla wszystkich smaków — białko, energia i błonnik, żeby jeden posiłek naprawdę zamykał temat obiadu.",
     "items": [
       {
-        "value": "60 g",
+        "value": "~42 g",
         "label": "białka",
-        "hint": "jak ok. 250 g piersi z kurczaka"
+        "hint": "jak ok. 180 g piersi z kurczaka"
       },
       {
-        "value": "~600",
+        "value": "~535",
         "label": "kcal",
         "hint": "pełny obiad, nie przekąska"
       },
       {
-        "value": "Błonnik",
-        "label": "w każdej porcji",
+        "value": "~6 g",
+        "label": "błonnika",
         "hint": "żeby porcja sycila"
       },
       {
@@ -120,7 +120,7 @@
   "flavors": {
     "eyebrow": "Smaki",
     "title": "Smaki GRYZ",
-    "sub": "Sześć pełnych dań — białko, smak i czytelne makro w każdej porcji.",
+    "sub": "Sześć smaków na co dzień: sycąco, smacznie i z pełnowartościowym składem w każdej porcji.",
     "macros": {
       "kcal": "kcal",
       "protein": "białko",
@@ -199,7 +199,7 @@
   },
   "offer": {
     "title": "Spróbuj GRYZ jako jeden z pierwszych!",
-    "body": "Przygotowujemy się do oficjalnego startu i zbieramy pierwszą grupę uczestników do testowania produktu.",
+    "body": "Przygotowujemy się do oficjalnego startu i zbieramy grupę testową uczestników.",
     "action": "Zostaw zgłoszenie, aby mieć szansę wypróbować GRYZ za darmo i podzielić się opinią.",
     "note": "Liczba miejsc w grupie testowej jest ograniczona."
   },
@@ -209,31 +209,31 @@
     "items": [
       {
         "q": "Czym jest GRYZ i czym różni się od zwykłych przekąsek?",
-        "a": "Tekst odpowiedzi zostanie dodany później"
+        "a": "GRYZ to pełnowartościowy obiad w prostym opakowaniu: soczyste kawałki prawdziwego jedzenia, które możesz zjeść od razu — bez gotowania i naczyń. To nie przekąska ani baton — w jednej porcji są zbilansowane białka, tłuszcze, węglowodany, błonnik, witaminy i minerały."
       },
       {
         "q": "Jakie smaki będą dostępne?",
-        "a": "Tekst odpowiedzi zostanie dodany później"
+        "a": "Na start planujemy sześć smaków: cheeseburger, kurczak teriyaki z funchozą, risotto z krewetkami, pizza Cztery sery, pad thai z wołowiną oraz lasagne bolognese. Finalny asortyment może zostać zmieniony i rozszerzony w przyszłości."
       },
       {
         "q": "Ile białka i kalorii jest w jednym opakowaniu?",
-        "a": "Tekst odpowiedzi zostanie dodany później"
+        "a": "Średnio we wszystkich smakach — około 42 g białka i około 535 kcal w jednym opakowaniu. To sycąca porcja z sensownym bilansem energii: wystarczy, by zamknąć obiad, ale bez wrażenia „przeładowania”. Szczegółowe wartości odżywcze dla każdego smaku znajdziesz w sekcji smaków wyżej na stronie."
       },
       {
         "q": "Czy GRYZ może zastąpić zwykły posiłek?",
-        "a": "Tekst odpowiedzi zostanie dodany później"
+        "a": "Tak — GRYZ jest właśnie stworzony, by zastąpić zwykły obiad, gdy nie ma czasu gotować albo iść do kawiarni. To sycąca porcja z sensownym składem, a nie lekka przekąska między sprawami."
       },
       {
         "q": "Z jakich składników produkowany jest GRYZ?",
-        "a": "Tekst odpowiedzi zostanie dodany później"
+        "a": "Podstawą są znane produkty prawdziwego jedzenia: mięso, kurczak, owoce morza, sery, kasze, warzywa i sosy — w zależności od smaku. Pełna lista składników dostępna jest na opakowaniu."
       },
       {
         "q": "Jak otrzymać darmową próbkę?",
-        "a": "Tekst odpowiedzi zostanie dodany później"
+        "a": "Zostaw imię i e-mail w formularzu na tej stronie. Zbieramy grupę testową przed oficjalnym startem: jeśli trafisz do niej, napiszemy na maila i uzgodnimy wysyłkę próbki. Liczba miejsc jest ograniczona; szczegóły geografii i terminów doprecyzujemy bliżej wysyłki."
       },
       {
         "q": "Kiedy wystartuje sprzedaż w Polsce / Ukrainie?",
-        "a": "Tekst odpowiedzi zostanie dodany później"
+        "a": "Trwa przygotowanie do oficjalnego startu na rynkach Ukrainy i Polski. Dokładną datę sprzedaży ogłosimy osobno — śledź maila po zgłoszeniu albo aktualizacje na stronie."
       }
     ]
   },

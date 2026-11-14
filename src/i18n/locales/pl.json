@@ -12,8 +12,8 @@
   },
   "hero": {
     "brand": "GRYZ",
-    "headline": "Prawdziwe jedzenie w nowym formacie. GRYZ — nowy sposób odżywiania się w rytmie dużego miasta.",
-    "sub": "Otwierasz paczkę i jesz. Bez sklepów, gotowania i liczenia — temat jedzenia zamknięty.",
+    "headline": "Prawdziwe jedzenie o wyrazistym smaku. GRYZ — nowy sposób odżywiania się w rytmie dużego miasta.",
+    "sub": "Soczyste kawałki w prostym opakowaniu. Bez sklepów, gotowania i liczenia — temat jedzenia zamknięty.",
     "badge": "Zostaw zgłoszenie i zyskaj szansę, by wypróbować nasz produkt za darmo jeszcze przed oficjalnym startem",
     "cta": "Chcę spróbować GRYZ"
   },
@@ -78,11 +78,11 @@
     "items": [
       {
         "title": "Gdy każda minuta się liczy",
-        "text": "Między spotkaniami, deadline'ami i wyjazdami. GRYZ zawsze pod ręką, gdy nie ma czasu na pełny obiad."
+        "text": "Między spotkaniami, deadline'ami i wyjazdami. GRYZ zawsze pod ręką — normalny obiad bez kompromisu w smaku."
       },
       {
         "title": "Gdy żyjesz sportem",
-        "text": "Wygodny sposób na porcję białka po treningu — bez pudełek i shakerów."
+        "text": "Wygodny sposób na porcję białka po treningu — sycąco i smacznie."
       },
       {
         "title": "Gdy życie jest w ruchu",
@@ -151,24 +151,32 @@
     "title": "Krótko i na temat",
     "items": [
       {
-        "q": "To karma dla zwierząt?",
-        "a": "Nie. To jedzenie dla ludzi: produkcja spożywcza i surowce spożywcze."
+        "q": "Czym jest GRYZ i czym różni się od zwykłych przekąsek?",
+        "a": "Tekst odpowiedzi zostanie dodany później"
       },
       {
-        "q": "Można jeść tylko to?",
-        "a": "Nie o to chodzi. GRYZ zastępuje ten posiłek, na który nie masz czasu — nie całą dietę."
+        "q": "Jakie smaki będą dostępne?",
+        "a": "Tekst odpowiedzi zostanie dodany później"
       },
       {
-        "q": "Z czego to będzie?",
-        "a": "Baza roślinna z grochu i ryżu, przyprawy, oleje roślinne, witaminy i minerały."
+        "q": "Ile białka i kalorii jest w jednym opakowaniu?",
+        "a": "Tekst odpowiedzi zostanie dodany później"
       },
       {
-        "q": "Co daje darmowa próbka?",
-        "a": "Zostawiasz imię i e-mail — informujemy, gdy próbka jest gotowa do wysyłki, i wysyłamy ją."
+        "q": "Czy GRYZ może zastąpić zwykły posiłek?",
+        "a": "Tekst odpowiedzi zostanie dodany później"
       },
       {
-        "q": "Kiedy start?",
-        "a": "Osoby zapisane dowiedzą się pierwsze — napiszemy na e-mail o starcie i dostawie."
+        "q": "Z jakich składników produkowany jest GRYZ?",
+        "a": "Tekst odpowiedzi zostanie dodany później"
+      },
+      {
+        "q": "Jak otrzymać darmową próbkę?",
+        "a": "Tekst odpowiedzi zostanie dodany później"
+      },
+      {
+        "q": "Kiedy wystartuje sprzedaż w Polsce / Ukrainie?",
+        "a": "Tekst odpowiedzi zostanie dodany później"
       }
     ]
   },

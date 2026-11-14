@@ -28,7 +28,7 @@ export function Hero({ onOpenPrivacy }: HeroProps) {
           <p className="reveal reveal-delay-1 mt-3 min-h-[4.5rem] max-w-md text-base leading-relaxed text-muted sm:min-h-[5.25rem] sm:text-lg">
             {t('hero.sub')}
           </p>
-          <p className="reveal reveal-delay-1 mt-3 min-h-[1.25rem] text-sm font-semibold text-ink sm:mt-4">
+          <p className="reveal reveal-delay-1 mt-3 min-h-[2.75rem] max-w-md text-sm font-semibold leading-snug text-ink sm:mt-4 sm:min-h-[2.5rem]">
             {t('hero.badge')}
           </p>
 

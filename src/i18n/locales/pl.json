@@ -12,7 +12,7 @@
   },
   "hero": {
     "brand": "GRYZ",
-    "headline": "Pełnowartościowy obiad. Nawet bez czasu.",
+    "headline": "Prawdziwe jedzenie w nowym formacie. GRYZ — nowy sposób odżywiania się w rytmie dużego miasta.",
     "sub": "Otwierasz paczkę i jesz. Bez sklepów, gotowania i liczenia — temat jedzenia zamknięty.",
     "badge": "Zostaw zgłoszenie i zyskaj szansę, by wypróbować nasz produkt za darmo jeszcze przed oficjalnym startem",
     "cta": "Chcę darmową próbkę"
@@ -37,19 +37,20 @@
   },
   "benefits": {
     "eyebrow": "Co zyskujesz",
-    "title": "Więcej czasu. Mniej decyzji. Normalne jedzenie.",
+    "title": "Mniej troski o jedzenie.",
+    "titleLine2": "Więcej czasu na życie.",
     "items": [
       {
+        "title": "Wszystko czego potrzebujesz w jednym opakowaniu",
+        "text": "Białka, tłuszcze, węglowodany, witaminy i minerały — przemyślany skład na intensywny dzień. Bez gotowania i skomplikowanych wyliczeń."
+      },
+      {
+        "title": "Więcej korzyści. Mniej zbędnych wydatków",
+        "text": "Nie musisz dopłacać za dostawę ani kupować produktów na jeden posiłek. GRYZ — wygodny format żywienia bez zbędnych kłopotów."
+      },
+      {
         "title": "Więcej czasu",
-        "text": "Zakupy, gotowanie i zmywanie znikają z grafiku. Ten czas należy do Ciebie."
-      },
-      {
-        "title": "Oszczędność",
-        "text": "Pełny obiad taniej niż lunch w mieście czy dieta pudełkowa. I nic się nie psuje w lodówce."
-      },
-      {
-        "title": "Wszystko w jednej porcji",
-        "text": "Białko, węglowodany, tłuszcze, witaminy i minerały w jednej paczce. Nie myślisz, co i kiedy jeść."
+        "text": "Zapomnij o długim gotowaniu, kolejkach i brudnych naczyniach. GRYZ zawsze pod ręką — w domu, w pracy, w drodze lub po treningu."
       }
     ]
   },

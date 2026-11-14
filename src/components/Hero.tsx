@@ -1,17 +1,10 @@
-import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import productImgPl from '../assets/product_pl.png'
 import productImgUa from '../assets/product_ua.png'
-import { LeadFormModal } from './LeadFormModal'
 
-type HeroProps = {
-  onOpenPrivacy: () => void
-}
-
-export function Hero({ onOpenPrivacy }: HeroProps) {
+export function Hero() {
   const { t, i18n } = useTranslation()
   const productImg = i18n.language === 'pl' ? productImgPl : productImgUa
-  const [formOpen, setFormOpen] = useState(false)
 
   return (
     <section className="relative overflow-hidden border-b border-line bg-sand">
@@ -33,15 +26,14 @@ export function Hero({ onOpenPrivacy }: HeroProps) {
           </p>
 
           <div className="reveal reveal-delay-3 mt-4 sm:mt-6">
-            <button
+            <a
               id="sample"
-              type="button"
-              onClick={() => setFormOpen(true)}
+              href="#offer"
               className="inline-flex h-12 w-full items-center justify-center rounded-xl bg-pistachio px-6 text-center text-sm font-bold uppercase tracking-[0.08em] text-ink transition hover:bg-pistachio-dark sm:w-auto"
               data-cta="open-sample"
             >
               {t('hero.cta')}
-            </button>
+            </a>
           </div>
         </div>
 
@@ -54,12 +46,6 @@ export function Hero({ onOpenPrivacy }: HeroProps) {
           />
         </div>
       </div>
-
-      <LeadFormModal
-        open={formOpen}
-        onClose={() => setFormOpen(false)}
-        onOpenPrivacy={onOpenPrivacy}
-      />
     </section>
   )
 }

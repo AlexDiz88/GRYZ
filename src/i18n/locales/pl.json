@@ -8,14 +8,14 @@
     "nutrition": "Skład",
     "flavors": "Smaki",
     "faq": "Pytania",
-    "cta": "Chcę darmową próbkę"
+    "cta": "Chcę spróbować GRYZ"
   },
   "hero": {
     "brand": "GRYZ",
     "headline": "Prawdziwe jedzenie w nowym formacie. GRYZ — nowy sposób odżywiania się w rytmie dużego miasta.",
     "sub": "Otwierasz paczkę i jesz. Bez sklepów, gotowania i liczenia — temat jedzenia zamknięty.",
     "badge": "Zostaw zgłoszenie i zyskaj szansę, by wypróbować nasz produkt za darmo jeszcze przed oficjalnym startem",
-    "cta": "Chcę darmową próbkę"
+    "cta": "Chcę spróbować GRYZ"
   },
   "form": {
     "modalTitle": "Zgłoszenie po próbkę",
@@ -25,7 +25,7 @@
     "emailPlaceholder": "your@email.com",
     "consent": "Wyrażam zgodę na przetwarzanie danych osobowych i komunikację dotyczącą darmowej próbki zgodnie z",
     "privacyLink": "Polityką prywatności",
-    "submit": "Chcę darmową próbkę",
+    "submit": "Chcę spróbować GRYZ",
     "submitting": "Wysyłamy…",
     "successTitle": "Zgłoszenie przyjęte",
     "successText": "Napiszemy na Twój e-mail, gdy próbka będzie gotowa do wysyłki.",
@@ -141,13 +141,10 @@
     ]
   },
   "offer": {
-    "eyebrow": "Przedsprzedaż",
-    "title": "Tydzień obiadów bez zachodu",
-    "pack": "7 porcji",
-    "priceUa": "Ukraina — cena przy starcie sprzedaży",
-    "pricePl": "Polska — cena przy starcie sprzedaży",
-    "delivery": "Dostawa w Ukrainie i w Polsce.",
-    "note": "Zostaw zgłoszenie po darmową próbkę — napiszemy na e-mail, gdy będzie gotowa do wysyłki."
+    "title": "Spróbuj GRYZ jako jeden z pierwszych!",
+    "body": "Przygotowujemy się do oficjalnego startu i zbieramy pierwszą grupę uczestników do testowania produktu.",
+    "action": "Zostaw zgłoszenie, aby mieć szansę wypróbować GRYZ za darmo i podzielić się opinią.",
+    "note": "Liczba miejsc w grupie testowej jest ograniczona."
   },
   "faq": {
     "eyebrow": "Pytania",

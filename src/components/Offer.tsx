@@ -9,22 +9,22 @@ export function Offer({ onOpenPrivacy }: OfferProps) {
   const { t } = useTranslation()
 
   return (
-    <section className="border-b border-line bg-sand py-12 sm:py-16">
+    <section
+      id="offer"
+      className="scroll-mt-[60px] border-b border-line bg-sand py-12 sm:py-16"
+    >
       <div className="mx-auto grid max-w-6xl items-start gap-8 px-4 sm:px-6 lg:grid-cols-[1fr_1fr] lg:gap-10">
         <div>
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand">
-            {t('offer.eyebrow')}
-          </p>
-          <h2 className="mt-3 text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
             {t('offer.title')}
           </h2>
-          <p className="mt-3 text-lg font-semibold text-ink">{t('offer.pack')}</p>
-          <ul className="mt-4 space-y-2 text-muted">
-            <li>{t('offer.priceUa')}</li>
-            <li>{t('offer.pricePl')}</li>
-            <li className="font-medium text-ink">{t('offer.delivery')}</li>
-          </ul>
-          <p className="mt-6 min-h-[4rem] max-w-md text-sm leading-relaxed text-muted">
+          <p className="mt-4 max-w-md text-base leading-relaxed text-muted">
+            {t('offer.body')}
+          </p>
+          <p className="mt-4 max-w-md text-base leading-relaxed text-ink">
+            {t('offer.action')}
+          </p>
+          <p className="mt-6 max-w-md text-sm font-medium leading-relaxed text-brand">
             {t('offer.note')}
           </p>
         </div>

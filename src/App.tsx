@@ -59,7 +59,7 @@ export default function App() {
     <div id="top" className="min-h-dvh">
       <Header />
       <main>
-        <Hero onOpenPrivacy={openPrivacy} />
+        <Hero />
         <Benefits />
         <HowItWorks />
         <Audience />
